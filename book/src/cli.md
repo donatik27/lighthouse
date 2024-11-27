@@ -6,7 +6,7 @@ has two primary sub-commands:
 - `$ lighthouse beacon_node`: the largest and most fundamental component which connects to
  the p2p network, processes messages and tracks the head of the beacon
  chain.
-- `$ lighthouse validator_client`: a lightweight but important component which loads a validators private
+- `$ lighthouse validator_client`: a lightweight but important component which loads a validator's private
  key and signs messages using a `beacon_node` as a source-of-truth.
 
 There are also some ancillary binaries like `lcli` and `account_manager`, but
@@ -48,7 +48,7 @@ maintained by Sigma Prime.
 
 However, for developers, testnets can be created by following the instructions
 outlined in [testnets](./testnets.md). The steps listed here will create a
-local database specified to a new testnet.
+local database specified for a new testnet.
 
 ## Resuming from an existing database
 
